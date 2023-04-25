@@ -18,7 +18,7 @@ public class Abonnement {
 
     private LocalDate dateAbonnement;
 
-    private /*typeAbonnment*/ String typeAbonnement;
+    private typeAbonnment typeAbonnement;
 
     private double solde;
 
@@ -27,6 +27,8 @@ public class Abonnement {
 
 }
 
-/*enum typeAbonnment{
-    GSM, INTERNET, TELEPHONE_FIXE
-}*/
+enum typeAbonnment{
+    GSM,
+    INTERNET,
+    TELEPHONE_FIXE
+}
